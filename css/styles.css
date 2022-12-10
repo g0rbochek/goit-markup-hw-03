@@ -1,0 +1,350 @@
+:root {
+    --primary-brand: #4D5AE5;
+    --dark: #2E2F42;
+    --success: #31D0AA;
+    --text: #434455;
+    --subtletext: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+/* ====================================== widht */
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.btn-prtfl {
+    width: 586;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ====================================== widht */
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* COMPONENTSSSSSS ================================================== */
+.ptb {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.mb-hthre {
+    margin-bottom: 20px;
+}
+
+.title3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #2E2F42
+}
+
+.title2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;   
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+
+    padding-bottom: 72px;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* COMPONENTSSSSSS////////////// ================================================== */
+
+/*HEADER==========================================*/
+.header- {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.loga {
+    font-family: 'Raleway'; sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: 
+}
+.logb {
+    font-family: 'Raleway'; sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 1.3;  
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.logbf {
+    font-family: 'Raleway'; sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 1.1;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+    color: #F4F4FD;
+}
+
+.hm {
+    color: var(--primary-brand);
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    margin-left: 77px;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.header-nav-ul {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    text-decoration: none;
+}
+
+.link-scnd {
+    font-weight: 700;
+    color: #2E2F42;
+}
+
+.link-scnd:hover,
+.link-scnd:focus {
+    color: var(--primary-brand);
+}
+
+/* HEADER CONTACTS UL ===========================================*/
+.ul-contacts {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.ul-contacts- {
+   color: var(--text);
+   align-items: center;
+   margin-right: 40px;
+}
+
+.ul-contacts-:hover,
+.ul-contacts-:focus {
+    color: var(--primary-brand);
+}
+/* MAIN BUTTON ==============================================================*/
+.title-hero {
+    font-weight: 700;
+    font-size: 56px;
+    
+    line-height: 1.07;
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+     
+    margin: 0 auto 48 auto;
+
+    color: #ffffff;
+}
+.buto-main {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+
+    margin: 0;
+    padding: 16px 32px;
+    
+   
+   
+    cursor: pointer;
+    color: #ffffff;
+    background-color: var(--primary-brand);
+}
+.buto-main:hover,
+.buto-main:focus {
+    color: #ffffff;
+    background-color: #404BBF;
+}
+
+
+.buto { 
+    padding: 8px 16px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-brand);
+    background-color: var(--accent);
+    border: 1px solid #E7E9FC
+}
+.buto:focus,
+.buto:hover {
+    color: #ffffff;
+    background-color: var(--primary-brand);
+}
+
+/* main ==========================================*/
+.main-section {
+    
+}
+
+.main-section-tm {
+    background-color: #F4F4FD;
+}
+
+
+   
+
+.main-section-top {
+    padding: 192px 0;
+    background-color: var(--dark);
+    text-align: center;
+}
+
+.main-ourmethods {
+    display: flex;
+    column-gap: 24px;
+}
+
+.main-ourm-list {
+    display: flex;
+    column-gap: 24px;
+}
+
+.main-team {
+    display: flex;
+    column-gap: 24px;
+}
+
+.our-team-box {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+
+    text-align: center;
+    
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+/* main ===================================================== */
+
+/* portfolio */
+.prtf-main {
+    padding: 96px 0 0;
+}
+
+.list-prtf {
+    display: flex;
+    column-gap: 24px;
+
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.list-prtf-sec {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    padding-bottom: 152px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.list-prtf-sec-li:not(:nth-child(3n)):not(:nth-child(3n)) {
+    margin-bottom: 48px;
+}
+
+.prtf-box {
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    padding-top: 24px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+}
+
+/* footer */
+.footer- {
+    padding: 100px 0;
+    background-color: var(--dark);
+}
+
+.footer-text {
+    width: 264px;
+    line-height: 1.5;
+    color: var(--accent);
+    margin-top: 16px;
+}
+
+/* visually */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden
+}
+.current {
+    color: #404BBF;
+}
