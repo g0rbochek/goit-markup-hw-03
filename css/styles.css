@@ -239,14 +239,16 @@ img {
 
 /* main ==========================================*/
 .main-section {
-    
+    margin: 120px 0;
 }
 
 .main-section-tm {
     background-color: #F4F4FD;
 }
 
-
+.main-section-wawd {
+    margin-bottom: 0 0 120px;
+}
    
 
 .main-section-top {
@@ -258,6 +260,7 @@ img {
 .main-ourmethods {
     display: flex;
     column-gap: 24px;
+    margin-top: 72px 0 0;
 }
 
 .main-ourm-list {
